@@ -1,0 +1,74 @@
+<stile>
+
+.center {
+
+	padding: 70px 0;
+	border: none;
+	text-align: center;
+
+	}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+table, td, th {
+
+    border: 3px solid #ddd;
+    padding: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    width: 10px;
+    border-color: #333300;
+    height: 10px;
+    background-color: lightblue;
+    text-align: justify;
+    border-width: 2px;
+}
+
+body {
+    background-color: #00ff99;
+}
+
+table {
+	border-collapse: collapse;
+	width: 75%
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+</style>
