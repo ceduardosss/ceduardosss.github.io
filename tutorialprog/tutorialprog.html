@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	
+
+	
+	<style>
+
+text {
+
+	font-family: Gabriola;
+	line-height: 2px;
+}
+
+body {
+
+text-align: justify;
+background-image:
+
+}
+
+p {
+	text-align: justify;
+
+}
+	#codigos {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+#codigos td, #codigos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#codigos tr:nth-child(yellow){background-color: #f2f2f2;}
+
+#codigos tr:hover {background-color: #ddd;}
+
+#codigos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+		</style>
+
+	<title>Tutorial Breve sobre Programação</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+
+
+<table id="codigos">
+
+<tr><th>O que é Lógica de Programação?</th></tr>
+
+<tr><td>A Lógica de Programação é “o uso correto das leis do pensamento, da “ordem da razão” e de processos de raciocínio e simbolização formais na programação de computadores,objetivando a racionalidade e o desenvolvimento de técnicas que cooperem para a produção de soluções logicamente válidas e coerentes, que resolvam com qualidade os problemas que se deseja programar”. (Forbellone / Eberspächer, 2005)
+
+Sintetizando, podemos dizer que a Lógica de Programação mada mais é que o uso da lógica para a programação (meio óbvio, não?).Como assim? Devemos utilizar a lógica, levando em conta que o computador irá fazer exatamente o que você disser para ele fazer.</td>
+
+
+
+
+<tr><th>Variáveis e Constantes<tr></th>
+
+<tr><td>Como o próprio nome diz, variável é uma valor mutável ao longo da execução do programa. Este programa poderá ser lido do teclado, poderá ser obtido de um hardware, porderá ser manipulado dentro do código, dentre outras inúmeras utilizações. Toda variável precisa ter o seu tipo definido, para que o programa possa reservar na memória a quantidade necessária de espaço.
+
+Além do tipo, a variável precisa de um rótulo ou um nome que a identifique dentro do programa. É através desse rótulo que ela será referenciada em todo o programa.
+
+A variável, antes de ser utilizada, precisa ser declarada. Na declaração, definimos o rótulo e o tipo da variável. Exemplo:</td> 
+
+
+<tr><th>Declaração de Variáveis</th></tr>
+
+<tr>
+<td>real:
+Soma</td>
+</tr>
+<tr>
+<td>caracter:
+inicial</td>
+</tr>
+<tr>
+<td>inteiro:
+idade</td>
+</tr>
+
+<tr><th>Operadores Relacionais</th></tr>
+
+<tr><td>Estes operadores servem para que possamos fazer comparações entre variáveis e/ou constantes. A seguir, uma listagem dos operadores relacionais que utilizaremos frequentemente:</p>
+</td></tr>
+
+</table>
+   <table id="codigos">
+   <tr> 
+
+   	<td>Maior, representado pelo símbolo</td>
+    <td>Menor, representado pelo símbolo</td>
+    <td>Maior ou igual, representado pelo símbolo</td>
+    <td>Menor ou igual, representado pelo símbolo</td>
+    <td>Igual, representado pelo símbolo</td>
+    <td>Diferente, representado pelo símbolo</td>
+   </tr>	
+
+<tr>
+    <td>></td>
+    <td><</td>
+	<td>>=</td>
+	<td><=</td>
+	<td>==</td>
+	<td>!=</td>
+
+    </tr>
+</table>
+<br>
+<p>Esses operadores serão fundamentais na construção de sentenças condicionais, que veremos em breve. Complementando o post, esqueci de falar do operador de atribuição. Através dele, colocamos um valor em uma variável, ou melhor, atribuímos um valor a uma variável. Por exemplo:</p>
+
+<table id="codigos">
+	<tr>
+		<th>Na Linguagem C (Comando de atribuição)</th>
+	</tr>
+	<tr>	
+		<td>soma=a+b</td></tr>
+	<tr>
+		<td>correto=falso</td></tr>
+	<tr>	
+		<td>media=1,5</td></tr>
+	</tr>		
+
+		</tr>
+
+
+<tr><th>Significado</th></tr>
+<td>
+<p>soma ← a + b (lê-se: soma recebe a+b)</p>
+<p>correto ← falso (lê-se: correto recebe falso)</p>
+<p>media ← 1,5 (lê-se: media recebe 1,5</p>
+</td>
+
+</table>
+<table id="codigos">
+
+<tr><th>COMANDO DE ENTRADA</th>
+</tr>
+<tr>
+<td>Os algoritmos precisam ser alimentados com dados provenientes do meio
+externo para efetuarem as operações e cálculos que são necessários a fim
+de alcançar o resultado desejado. Com essa finalidade, utilizaremos os
+comandos de entrada e saída.</td>
+</tr>
+
+<tr>
+
+</tr>
+
+<tr><th>(Comando, expressões)</th></tr>
+
+<tr>
+<td>leia(MATRICULA);</td>
+</tr>
+
+<tr><td>scanf("%d", &MATRICULA); [Usando linguagem C]</td></tr>
+
+
+<tr>
+<td>leia( NOME, NOTA_1, NOTA_2);</td>
+</tr>
+
+<tr><td>scanf("%c %d %d", &NOME, &NOTA_1, &NOTA_2); [Usando linguagem C]</td></tr>
+</tr>
+
+
+<tr>
+	<th>COMANDO DE SAÍDA</th>
+</tr>
+<table id="codigos">
+	
+<tr><th>(Comando, expressões / Na Linguagem C</th></tr>
+
+<tr>
+<td>escreva("BOM DIA", NOME);</td>
+</tr>
+
+<tr>	
+		<td>printf("BOM DIA", NOME);[Na Linguagem C]</td></tr>
+
+<tr>
+<td>escreva("VOCÊ PESA", PESO, "KG");</td>
+</tr>
+
+<tr>
+		<td>printf("VOCE PESA", PESO);[Na Linguagem C]</td></tr>
+
+</table>
+
+
+<table id="codigos">
+
+<tr><th>ESTRUTURAS DE SELEÇÃO</th></tr>
+
+<td>Uma estrutura de seleção permite a escolha de um grupo de ações (bloco) a
+ser executado quando determinadas condições, representadas por
+expressões lógicas ou relacionais, são ou não satisfeitas.
+O fluxo de instruções a ser executado depende de uma ou mais condições,
+ou seja, expressões lógicas (V ou F).Funciona como uma bifurcação. Uma única condição é avaliada, se for V, um caminho é seguido. Se for F, o outro caminho será executado. Existem dois tipos:</p></td>
+
+
+
+
+<tr>
+<td>“Se” (avaliação de uma única condição)</td>
+</tr>
+
+<tr>
+<td>“Escolha” (avaliação de várias condições).</td>
+</tr>
+
+</table>
+
+
+
+<table id="codigos">
+	
+<tr><th>Algoritmo</th>
+<th>Na Linguagem C</th>
+</tr>
+
+
+<tr>
+	<td>se (condição) então<br>
+		(conjunto de comandos 1)<br>
+	senão<br>
+		(conjunto de comandos 2)<br>
+	fimse
+
+	<td>
+	if(condição) {<br>	
+	(conjunto de comandos 1)<br>
+	else<br>
+	(conjunto de comandos 2)<br>
+}<br>
+
+<tr>
+	
+	
+</td></tr>
+
+
+</td>
+
+
+</tr>
+
+</td></tr>
+
+</table>
+
+
+</body>
+</html>
